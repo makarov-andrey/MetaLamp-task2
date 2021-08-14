@@ -1,0 +1,24 @@
+@import "../constants";
+
+.nav-links{
+  margin-left: 265.3px;
+  margin-top: 26px;
+  color: $dark50;
+  width: 446px;
+  font-size: 14px;
+}
+.nav-links a{
+  margin-left: 20px;
+}
+
+.nav-links p{
+  margin: 0;
+}
+
+.nav-links button{
+  font-family: Montserrat;
+  margin-left: 20px;
+  background-color: transparent;
+  border: transparent;
+  color: $dark50;
+}
