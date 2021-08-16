@@ -1,10 +1,13 @@
 @import "logo";
 @import "nav-links";
+@import "sign-in-buttons";
 
 nav {
+  white-space: nowrap;
   display: flex;
   height: 70px;
   width: 100%;
+  font-size: 14px;
   border: 0;
   background-color: white;
 }

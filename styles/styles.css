@@ -13,11 +13,12 @@
   margin-left: 265.3px;
   margin-top: 26px;
   color: rgba(31, 32, 65, 0.5);
-  width: 446px;
-  font-size: 14px; }
+  width: 446px; }
 
 .nav-links a {
-  margin-left: 20px; }
+  margin-left: 20px;
+  color: rgba(31, 32, 65, 0.5);
+  text-decoration: none; }
 
 .nav-links p {
   margin: 0; }
@@ -29,10 +30,38 @@
   border: transparent;
   color: rgba(31, 32, 65, 0.5); }
 
+.sign-in-button a {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(#8ba4f9, #BC9CFF) border-box;
+  color: #BC9CFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 9px 20px 10px 20px;
+  margin: 18px 20px;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  display: inline-block; }
+
+.sign-up-button a {
+  background: linear-gradient(#8ba4f9, #BC9CFF) padding-box, linear-gradient(#8ba4f9, #BC9CFF) border-box;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 9px 20px 10px 20px;
+  margin: 18px 20px;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  display: inline-block; }
+
 nav {
+  white-space: nowrap;
   display: flex;
   height: 70px;
   width: 100%;
+  font-size: 14px;
   border: 0;
   background-color: white; }
 

@@ -1,0 +1,43 @@
+@import "../constants";
+
+
+.sign-in-button a{
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient($blue, $purple) border-box;
+  color: $purple;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+
+
+  padding: 9px 20px 10px 20px;
+  margin: 18px 20px;
+
+  border: 2px solid transparent;
+  border-radius: 22px;
+
+  display: inline-block;
+}
+
+.sign-up-button a{
+  background:
+          linear-gradient($blue, $purple) padding-box,
+          linear-gradient($blue, $purple) border-box;
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  padding: 9px 20px 10px 20px;
+  margin: 18px 20px;
+
+  border: 2px solid transparent;
+  border-radius: 22px;
+
+  display: inline-block;
+}

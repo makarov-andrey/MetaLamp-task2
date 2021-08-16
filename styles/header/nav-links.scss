@@ -5,10 +5,12 @@
   margin-top: 26px;
   color: $dark50;
   width: 446px;
-  font-size: 14px;
 }
+
 .nav-links a{
   margin-left: 20px;
+  color: $dark50;
+  text-decoration: none;
 }
 
 .nav-links p{
