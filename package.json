@@ -1,0 +1,39 @@
+{
+  "name": "metalamp-task2",
+  "version": "1.0.0",
+  "description": "GitHub Pages: https://dasdaone.github.io/MetaLamp-task2/",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasDaOne/MetaLamp-task2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DasDaOne/MetaLamp-task2/issues"
+  },
+  "homepage": "https://github.com/DasDaOne/MetaLamp-task2#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.172",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "pug-include-glob": "^0.4.3",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
